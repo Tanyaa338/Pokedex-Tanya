@@ -24,10 +24,12 @@ take()
 def search():
     y = input("What language do you want?")
     if y == "Chinese":
+        print("ok")
     elif y == "English":
+        print("ok")
     elif y == "Japanese":
+        print("ok")
+        
     x = input("Which Pokemon's data do you want?")
-    if input == pokemon
-
-
-
+    if x == data[pokemon][i][2]:
+        print(data)
