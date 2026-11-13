@@ -16,6 +16,8 @@ print(data[0])
 
 #Based on user input, show all moves that a pokemon could learn based on their type. For example, if Charizard is fire/fyling, show all fire and flying moves. HINT import the moves.json file too!
 
+
+
 def take():
     for pokemon in data:
         print(data[pokemon])
@@ -24,12 +26,13 @@ take()
 def search():
     y = input("What language do you want?")
     if y == "Chinese":
-        print("ok")
+        print("OK")
     elif y == "English":
-        print("ok")
+        print("okay")
     elif y == "Japanese":
-        print("ok")
-        
+        print("")
     x = input("Which Pokemon's data do you want?")
-    if x == data[pokemon][i][2]:
-        print(data)
+    for pokemon in data:
+        if x == data[pokemon][2]:
+            print(data[len(pokemon)][2])
+    
