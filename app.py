@@ -22,6 +22,7 @@ def take():
         print(data[pokemon])
 take()
 
+language.lower
 def search():
     y = input("What language do you want?")
     if y == "Chinese":
@@ -47,12 +48,49 @@ def name():
 
 def moooooooooooooooooooooooooooooooooooooooooooooooooooooooOoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooves():
     print("heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeee areeeeeeeeeee thee moooooves")
-    if data[pokemon][2] == "ground":
+    if data[pokemon][2] == "normal":
         print(moves)
-    elif data[pokemon][2] == "water":
-
-    elif data[pokemon][2] == "fire":
-
+    elif data[pokemon][2] == "fighting":
+        print
     elif data[pokemon][2] == "flying":
-
+        print
+    elif data[pokemon][2] == "poison":
+        print
+    elif data[pokemon][2] == "ground":
+        print
+    elif data[pokemon][2] == "rock":
+        print
+    elif data[pokemon][2] == "bug":
+        print
+    elif data[pokemon][2] == "ghost":
+        print
+    elif data[pokemon][2] == "steel":
+        print
+    elif data[pokemon][2] == "fire":
+        print
+    elif data[pokemon][2] == "water":
+        print
+    elif data[pokemon][2] == "grass":
+        print
+    elif data[pokemon][2] == "electric":
+        print
+    elif data[pokemon][2] == "psychic":
+        print
+    elif data[pokemon][2] == "ice":
+        print
+    elif data[pokemon][2] == "dragon":
+        print
+    elif data[pokemon][2] == "dark":
+        print
+    elif data[pokemon][2] == "fairy":
+        print
+    else:
+        print("you're cooked.")
     563
+
+def get_pokemon(pokemon):
+    #finds the poke
+    return poke
+def get_moves(poke):
+    x = get_pokemon(poke)
+
