@@ -45,52 +45,56 @@ def name():
             print(data[pokemon])
         else:
             print("ggs! better luck next time. the system craaaaaaaaaaaaaaaaaaaaaaaaaaaashed.")
+name()
 
 def moooooooooooooooooooooooooooooooooooooooooooooooooooooooOoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooves():
     print("heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeee areeeeeeeeeee thee moooooves")
     if data[pokemon][2] == "normal":
         print(moves)
     elif data[pokemon][2] == "fighting":
-        print
+        print(moves)
     elif data[pokemon][2] == "flying":
-        print
+        print(moves)
     elif data[pokemon][2] == "poison":
-        print
+        print(moves)
     elif data[pokemon][2] == "ground":
-        print
+        print(moves)
     elif data[pokemon][2] == "rock":
-        print
+        print(moves)
     elif data[pokemon][2] == "bug":
-        print
+        print(moves)
     elif data[pokemon][2] == "ghost":
-        print
+        print(moves)
     elif data[pokemon][2] == "steel":
-        print
+        print(moves)
     elif data[pokemon][2] == "fire":
-        print
+        print(moves)
     elif data[pokemon][2] == "water":
-        print
+        print(moves)
     elif data[pokemon][2] == "grass":
-        print
+        print(moves)
     elif data[pokemon][2] == "electric":
-        print
+        print(moves)
     elif data[pokemon][2] == "psychic":
-        print
+        print(moves)
     elif data[pokemon][2] == "ice":
-        print
+        print(moves)
     elif data[pokemon][2] == "dragon":
-        print
+        print(moves)
     elif data[pokemon][2] == "dark":
-        print
+        print(moves)
     elif data[pokemon][2] == "fairy":
-        print
+        print(moves)
     else:
         print("you're cooked.")
-    563
+moooooooooooooooooooooooooooooooooooooooooooooooooooooooOoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooves()
+563
 
-def get_pokemon(pokemon):
+
+
+""" def get_pokemon(pokemon):
     #finds the poke
     return poke
 def get_moves(poke):
-    x = get_pokemon(poke)
+    x = get_pokemon(poke) """
 
