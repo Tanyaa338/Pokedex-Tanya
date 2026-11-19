@@ -19,18 +19,23 @@ print(data[0])
 
 def take():
     for pokemon in data:
-        print(data[pokemon])
+        return pokemon
 take()
 
-language.lower
 def search():
     y = input("What language do you want?")
     if y == "Chinese":
-        print("OK")
+        print("hao")
+        print(pokedex[2])
     elif y == "English":
         print("okay")
+        print(pokedex[1])
     elif y == "Japanese":
-        print("")
+        print("eeeeeeeeeeeeeeeee")
+        print(pokedex[3])
+    elif y == "FRENCH":
+        print("ouiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii")
+        print(pokedex[4])
     x = input("Which Pokemon's data do you want?")
     for pokemon in data:
         if x == data[pokemon][2]:
@@ -38,6 +43,7 @@ def search():
 search()
 
 def name():
+    pokemon =
     ok = input("What pokemon do you want to see?")
     sofia = len(ok)
     for i in range(1, sofia):
@@ -47,47 +53,49 @@ def name():
             print("ggs! better luck next time. the system craaaaaaaaaaaaaaaaaaaaaaaaaaaashed.")
 name()
 
-def moooooooooooooooooooooooooooooooooooooooooooooooooooooooOoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooves():
+def mooves():
+    pokemon = 
+    moves =
     print("heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeee areeeeeeeeeee thee moooooves")
     if data[pokemon][2] == "normal":
-        print(moves)
+        print(pokemon[moves])
     elif data[pokemon][2] == "fighting":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "flying":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "poison":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "ground":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "rock":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "bug":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "ghost":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "steel":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "fire":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "water":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "grass":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "electric":
-        print(moves)
+       print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "psychic":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "ice":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "dragon":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "dark":
-        print(moves)
+        print(moves[pokemon]["ename"])
     elif data[pokemon][2] == "fairy":
-        print(moves)
+        print(moves[pokemon]["ename"])
     else:
         print("you're cooked.")
-moooooooooooooooooooooooooooooooooooooooooooooooooooooooOoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooves()
+mooves()
 563
 
 
@@ -96,5 +104,5 @@ moooooooooooooooooooooooooooooooooooooooooooooooooooooooOooooooooooooooooooooooo
     #finds the poke
     return poke
 def get_moves(poke):
-    x = get_pokemon(poke) """
+    x = get_pokemon(poke)  """
 
