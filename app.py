@@ -43,7 +43,8 @@ def search():
 search()
 
 def name():
-    pokemon =
+    pokemon = pokedex[y]
+    y = (1,100000000)
     ok = input("What pokemon do you want to see?")
     sofia = len(ok)
     for i in range(1, sofia):
@@ -54,10 +55,11 @@ def name():
 name()
 
 def mooves():
-    pokemon = 
-    moves =
+    pokemon = pokedex[y]
+    moves = pokedex 
+    y = (1,959)
     print("heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeee areeeeeeeeeee thee moooooves")
-    if data[pokemon][2] == "normal":
+    if data[pokedex][2] == "normal":
         print(pokemon[moves])
     elif data[pokemon][2] == "fighting":
         print(moves[pokemon]["ename"])
@@ -105,4 +107,3 @@ mooves()
     return poke
 def get_moves(poke):
     x = get_pokemon(poke)  """
-
