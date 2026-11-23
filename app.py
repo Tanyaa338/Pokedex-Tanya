@@ -36,6 +36,7 @@ def search():
     elif y == "FRENCH":
         print("ouiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii")
         print(pokedex[4])
+    y.lower
     x = input("Which Pokemon's data do you want?")
     for pokemon in data:
         if x == data[pokemon][2]:
@@ -55,45 +56,44 @@ def name():
 name()
 
 def mooves():
-    pokemon = pokedex[y]
     moves = pokedex 
     y = (1,959)
     print("heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeee areeeeeeeeeee thee moooooves")
     if data[pokedex][2] == "normal":
-        print(pokemon[moves])
-    elif data[pokemon][2] == "fighting":
+        print(pokedex[y][moves])
+    elif data[pokedex][2] == "fighting":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "flying":
+    elif data[pokedex][2] == "flying":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "poison":
+    elif data[pokedex][2] == "poison":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "ground":
+    elif data[pokedex][2] == "ground":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "rock":
+    elif data[pokedex][2] == "rock":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "bug":
+    elif data[pokedex][2] == "bug":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "ghost":
+    elif data[pokedex][2] == "ghost":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "steel":
+    elif data[pokedex][2] == "steel":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "fire":
+    elif data[pokedex][2] == "fire":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "water":
+    elif data[pokedex][2] == "water":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "grass":
+    elif data[pokedex][2] == "grass":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "electric":
+    elif data[pokedex][2] == "electric":
        print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "psychic":
+    elif data[pokedex][2] == "psychic":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "ice":
+    elif data[pokedex][2] == "ice":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "dragon":
+    elif data[pokedex][2] == "dragon":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "dark":
+    elif data[pokedex][2] == "dark":
         print(moves[pokemon]["ename"])
-    elif data[pokemon][2] == "fairy":
+    elif data[pokedex][2] == "fairy":
         print(moves[pokemon]["ename"])
     else:
         print("you're cooked.")
