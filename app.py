@@ -25,13 +25,13 @@ take()
 def search():
     y = input("What language do you want?")
     if y == "Chinese":
-        print("hao")
+        print("Okay! I got you")
         print(x[2])
     elif y == "English":
-        print("okay")
+        print("Sofiaaaaaaa says okay!")
         print(x[1])
     elif y == "Japanese":
-        print("eeeeeeeeeeeeeeeee")
+        print("eseeoeeueepeeieeaaeeeeee")
         print(x[3])
     elif y == "FRENCH":
         print("ouiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii")
@@ -43,12 +43,15 @@ def search():
             print(data[pokemon][2])
 search()
 
+pokemon = []
+
 def name():
     y = (1,100000000)
     ok = input("What pokemon do you want to see?")
     sofia = len(ok)
+    pokemon.append(ok)
     for i in range(1, sofia):
-        if ok[i] == data[pokedex]["name"]:
+        if pokemon == data[pokedex]["name"]:
             print(data[pokedex]["name"])
         else:
             print("ggs! better luck next time. the system craaaaaaaaaaaaaaaaaaaaaaaaaaaashed.")
@@ -58,6 +61,9 @@ def mooves():
     moves = pokedex 
     y = (1,959)
     print("heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeee areeeeeeeeeee thee moooooves")
+    for moves in pokemon:
+        if pokedex[pokemon]["type"] == "english":
+            print(type)
     if data[pokedex][2] == "normal":
         print(pokedex[y][moves]["ename"])
     elif data[pokedex][2] == "fighting":
